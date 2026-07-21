@@ -20,5 +20,6 @@ jobs:
         with:
           name: X11-Fixed-10x20
           path: |
+            fonts/ttf/Fixed20-Original.ttf
             fonts/ttf/X11Fixed10x20-Regular.ttf
             specimens/*.png
