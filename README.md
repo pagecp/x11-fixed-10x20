@@ -3,9 +3,9 @@
 > **The terminal font that never needed replacing.**
 
 <img
-  src="specimens/terminal-green-on-black.png"
-  alt="X11 Fixed 10x20 terminal specimen"
-  width="700">
+  src="specimens/fixedregular-terminal-macos26-retina.png"
+  alt="FixedRegular 20 px in macOS Terminal on an Apple M4 Max"
+  width="411">
 
 This project preserves two editions of the classic X11 **Misc Fixed 10×20**:
 
