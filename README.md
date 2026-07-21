@@ -47,6 +47,7 @@ sudo cp fonts/ttf/X11Fixed10x20-Regular.ttf /Library/Fonts/
 or if not using sudo, to install it for your user only:
 
 ```sh
+mkdir -p ~/Library/Fonts
 cp fonts/ttf/Fixed20-Original.ttf ~/Library/Fonts/
 cp fonts/ttf/X11Fixed10x20-Regular.ttf ~/Library/Fonts/
 ```
