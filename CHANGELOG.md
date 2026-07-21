@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1 — 2026-07-21
+
+- Add optional per-user or system-wide macOS installation.
+- Add matching uninstall support.
+- Include both fonts in the CI artifact.
+- Replace the generated README specimen with a real macOS Terminal capture.
+
 ## 1.0.0 — 2026-07-21
 
 - Recovery of Christian Pagé's exact 2003 `FixedRegular` Mac bitmap SFNT.
