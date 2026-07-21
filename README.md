@@ -2,10 +2,7 @@
 
 > **The terminal font that never needed replacing.**
 
-<img
-  src="specimens/fixedregular-terminal-macos26-retina.png"
-  alt="FixedRegular 20 px in macOS Terminal on an Apple M4 Max"
-  width="411">
+![FixedRegular 20 px in macOS Terminal on an Apple M4 Max](specimens/fixedregular-terminal-macos26-retina.png)
 
 This project preserves two editions of the classic X11 **Misc Fixed 10×20**:
 
