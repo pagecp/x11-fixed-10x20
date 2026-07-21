@@ -40,6 +40,14 @@ asks, Control-click the file and choose **Open**.
 Manual installation:
 
 ```sh
+sudo cp fonts/ttf/Fixed20-Original.ttf /Library/Fonts/
+sudo cp fonts/ttf/X11Fixed10x20-Regular.ttf /Library/Fonts/
+```
+
+or if not using sudo, to install it for your user only:
+
+```sh
+cp fonts/ttf/Fixed20-Original.ttf ~/Library/Fonts/
 cp fonts/ttf/X11Fixed10x20-Regular.ttf ~/Library/Fonts/
 ```
 
@@ -69,7 +77,7 @@ choose **X11 Fixed 10x20** in Windows Terminal or your editor.
 - `fonts/original/`: BDF, Unicode PCF and historical ISO/KOI8-R PCFs.
 - `tools/extract_resource_font.py`: reproducible extraction of the 2003 SFNT.
 - `tools/build_ttf.py`: reproducible Unicode pixel-to-outline converter.
-- `specimens/`: images rendered from the generated TTF.
+- `specimens/`: images rendered directly from Christian Pagé’s original 2003 bitmap SFNT.
 - `docs/`: self-contained project page suitable for GitHub Pages.
 - `HISTORY.md`: the 1990–2026 continuity story.
 
