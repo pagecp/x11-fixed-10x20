@@ -2,7 +2,10 @@
 
 > **The terminal font that never needed replacing.**
 
-![Terminal specimen](specimens/terminal-green-on-black.png)
+<img
+  src="specimens/terminal-green-on-black.png"
+  alt="X11 Fixed 10x20 terminal specimen"
+  width="700">
 
 This project preserves two editions of the classic X11 **Misc Fixed 10×20**:
 
