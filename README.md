@@ -13,11 +13,13 @@ This project preserves two editions of the classic X11 **Misc Fixed 10×20**:
    characters from the X.Org Unicode PCF. It offers broad coverage, but its
    vector rendering is intentionally documented as different from the original.
 
-The original was designed at Network Computing Devices in 1989. Christian
-Pagé began using it on a black-and-white X terminal around 1990, converted it
-when Mac OS X arrived, exporting `FixedRegular` with FontLab 3 in 2003, and
-still uses it in Terminal on an Apple M4 Max in 2026. This repository preserves
-that line of continuity.
+The original was designed at Network Computing Devices (NCD) in 1989.
+Christian Pagé has used X11 Fixed 10×20 since around 1990, beginning on
+black-and-white NCD X terminals and continuing soon afterward on their color
+successors. When Mac OS X arrived, he brought the font with him, exporting
+`FixedRegular` with FontLab 3 in 2003. He still uses it in Terminal on an
+Apple M4 Max in 2026. This repository preserves that unbroken line of
+continuity.
 
 ## Why it still works
 
