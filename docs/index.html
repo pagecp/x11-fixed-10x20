@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>X11 Fixed 10×20</title>
+  <style>
+    @font-face{font-family:X11Fixed;src:url('assets/X11Fixed10x20-Regular.ttf') format('truetype')}
+    :root{--green:#39ff14;--magenta:#ff00ff;--ink:#080a08;--dim:#9aa39a}
+    *{box-sizing:border-box} body{margin:0;background:var(--ink);color:#f5f5f5;font-family:system-ui,sans-serif}
+    main{max-width:1080px;margin:auto;padding:72px 28px} h1{font:clamp(42px,9vw,96px)/.95 X11Fixed,monospace;margin:0;color:var(--green)}
+    .tag{font:24px/1.4 X11Fixed,monospace;color:var(--magenta);margin:22px 0 54px}
+    .hero{border:1px solid #304030;padding:28px;background:#000;box-shadow:12px 12px 0 #191019}
+    .spec{font:20px/1.2 X11Fixed,monospace;color:var(--green);white-space:pre-wrap;overflow:auto}
+    h2{margin-top:70px;font-size:30px}.story{font-size:20px;line-height:1.7;max-width:760px;color:#ddd}
+    .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:30px 0}
+    .fact{border-top:3px solid var(--magenta);padding:18px;background:#101310}.fact b{display:block;font:32px X11Fixed;color:var(--green)}
+    .compare{display:grid;gap:14px}.row{padding:18px;background:#111;border-left:3px solid #333;font-size:20px}.row strong{display:block;color:var(--dim);font:13px system-ui;margin-bottom:8px}.fixed{font-family:X11Fixed;font-size:20px;color:var(--green)}
+    code{font-family:X11Fixed;color:var(--green)} a{color:var(--green)} footer{margin-top:80px;color:var(--dim)}
+  </style>
+</head>
+<body><main>
+  <h1>X11 FIXED<br>10×20</h1>
+  <p class="tag">The terminal font that never needed replacing.</p>
+  <section class="hero"><div class="spec">page@kamari:~ % uptime
+09:24  up 36 years,  load averages: 1.90 1.90 1.90
+
+The quick brown fox jumps over the lazy dog.
+0123456789  . , : ; ! ?  () [] {} &lt;&gt;
+0 O o   1 l I |   / \   + - * = != ==</div></section>
+
+  <div class="facts">
+    <div class="fact"><b>1989</b>NCD bitmap origin</div>
+    <div class="fact"><b>10×20</b>exact pixel cell</div>
+    <div class="fact"><b>2003</b>Pagé Mac conversion</div>
+    <div class="fact"><b>5,204</b>Unicode companion</div>
+    <div class="fact"><b>2026</b>still used daily</div>
+  </div>
+
+  <h2>From monochrome X terminal to M4 Max</h2>
+  <p class="story">Christian Pagé adopted 10×20 around 1990 and never found a
+  terminal font he could read as effortlessly. He converted it when Mac OS X
+  appeared, exporting FixedRegular with FontLab 3 in 2003, and carried it
+  through every generation of his working environment. The exact Apple bitmap
+  SFNT has now been recovered from its resource fork and is distributed beside
+  a broader Unicode companion.</p>
+
+  <h2>See it against familiar terminal faces</h2>
+  <div class="compare">
+    <div class="row fixed"><strong>X11 Fixed 10×20</strong>Il1| 0Oo  .,  {}[]  != == =&gt;  readable_since_1990</div>
+    <div class="row" style="font-family:Menlo,monospace"><strong>Menlo</strong>Il1| 0Oo  .,  {}[]  != == =&gt;  readable_since_1990</div>
+    <div class="row" style="font-family:Monaco,monospace"><strong>Monaco</strong>Il1| 0Oo  .,  {}[]  != == =&gt;  readable_since_1990</div>
+    <div class="row" style="font-family:Terminus,monospace"><strong>Terminus</strong>Il1| 0Oo  .,  {}[]  != == =&gt;  readable_since_1990</div>
+    <div class="row" style="font-family:'JetBrains Mono',monospace"><strong>JetBrains Mono</strong>Il1| 0Oo  .,  {}[]  != == =&gt;  readable_since_1990</div>
+  </div>
+
+  <h2>Original first</h2>
+  <p class="story">The close period/comma pair is documented, not silently
+  “fixed.” The preservation face remains pixel-identical. Any accessibility
+  variation belongs in a separately named family.</p>
+  <footer>NCD permissive licence · 2003 Mac conversion by Christian Pagé · Original BDF and PCF sources included</footer>
+</main></body></html>
